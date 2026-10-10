@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Vimal Karthik, Senior Test Automation Engineer specializing in Playwright, API automation, CI/CD, and AI/GenAI quality engineering.">
+  <title>Vimal Karthik | Senior Test Automation Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vimal Karthik home">VK<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-small" href="assets/Vimal-Karthik-Resume.docx" download>Download resume ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO SENIOR QA / SDET OPPORTUNITIES</p>
+        <h1>Vimal Karthik</h1>
+        <h2>Senior Test Automation Engineer <span>·</span> AI / GenAI Quality Engineer</h2>
+        <p class="intro">I build reliable automation and evaluate AI-powered applications—from browser and API workflows to RAG retrieval quality, grounded answers, and agentic interactions.</p>
+        <div class="hero-actions"><a class="button" href="#projects">Explore portfolio ↓</a><a class="button button-ghost" href="assets/Vimal-Karthik-Resume.docx" download>Download resume ↗</a></div>
+        <div class="quick-facts"><div><strong>7 years</strong><span>QA & automation</span></div><div><strong>Playwright</strong><span>UI automation</span></div><div><strong>AI / RAG</strong><span>Quality validation</span></div></div>
+      </div>
+      <div class="hero-card" aria-label="Core focus areas">
+        <div class="card-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="card-label">QUALITY ENGINEERING</span></div>
+        <div class="terminal-line"><span class="terminal-green">✓</span> UI & end-to-end automation</div>
+        <div class="terminal-line"><span class="terminal-green">✓</span> API & service validation</div>
+        <div class="terminal-line"><span class="terminal-green">✓</span> CI/CD quality gates</div>
+        <div class="terminal-line"><span class="terminal-green">✓</span> RAG retrieval & grounding</div>
+        <div class="terminal-line"><span class="terminal-green">✓</span> Agent workflow validation</div>
+        <div class="terminal-foot"><span>Test thoughtfully.</span><span>Ship confidently.</span></div>
+      </div>
+    </section>
+
+    <section class="section about-grid" id="about">
+      <div><p class="eyebrow">01 / ABOUT</p><h2>Quality beyond the happy path.</h2></div>
+      <div class="about-text"><p>I'm a Test Automation Engineer with 7 years of experience in software quality engineering, UI/API automation, CI/CD, cloud-based testing, machine-learning product validation, and AI/GenAI application testing.</p><p>My current focus includes validating conversational and agentic AI experiences, checking RAG retrieval relevance and answer grounding, preparing repeatable evaluation datasets, and building Playwright automation for functional and regression coverage.</p><p>I enjoy turning complex risks into clear test strategies, reproducible defects, and actionable quality reporting.</p></div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & focus areas</h2></div><p class="section-note">A practical blend of automation engineering and AI quality evaluation.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>UI automation</h3><p>Playwright, Selenium, Appium, Testim, end-to-end and regression suites.</p><div class="tags"><span>TypeScript / JavaScript</span><span>POM</span><span>Fixtures</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⇄</div><h3>API & services</h3><p>REST API validation, API automation, service-level smoke coverage, Postman and Swagger.</p><div class="tags"><span>REST</span><span>Negative testing</span><span>Integration</span></div></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>AI / GenAI quality</h3><p>LLM and agentic testing, prompt validation, hallucination checks, response consistency and tool-use scenarios.</p><div class="tags"><span>LLM evaluation</span><span>DeepEval basics</span><span>Ground truth</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>RAG evaluation</h3><p>Retrieval relevance, context quality, semantic search, answer grounding and source/response alignment.</p><div class="tags"><span>Faithfulness</span><span>Relevance</span><span>Correctness</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⚙</div><h3>CI/CD & cloud</h3><p>Jenkins, AWS pipelines, Azure, shift-left testing, smoke checks and release promotion support.</p><div class="tags"><span>CI/CD</span><span>AWS</span><span>Quality gates</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Quality strategy</h3><p>Risk-based test planning, regression selection, defect refinement, performance testing and quality dashboards.</p><div class="tags"><span>JMeter</span><span>JIRA</span><span>Agile / Kanban</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Portfolio projects</h2></div><p class="section-note">Demonstration artifacts designed to show my approach. Sample projects are illustrative and contain no employer-confidential data.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured-project"><div class="project-number">PROJECT 01 · AUTOMATION</div><div class="project-art art-blue"><div class="code-window"><div class="code-bar">playwright.spec.ts <span>•••</span></div><pre><code><i>test</i>('user can sign in', <em>async</em> ({ page }) =&gt; {
+  <b>await</b> page.goto('/login');
+  <b>await</b> page.getByLabel('Email')
+    .fill('qa@example.com');
+  <b>await</b> page.getByRole('button',
+    { name: 'Sign in' }).click();
+  <b>await</b> expect(page)
+    .toHaveURL(/dashboard/);
+});</code></pre></div></div><h3>Playwright UI + API automation starter</h3><p>A small, readable example of a maintainable Playwright project with configuration, sample UI tests, API checks, and execution guidance.</p><div class="tags"><span>Playwright</span><span>TypeScript</span><span>API</span><span>CI-ready structure</span></div><a class="text-link" href="projects/playwright-ui-api-demo/README.md">Explore project notes ↗</a></article>
+        <article class="project-card"><div class="project-number">PROJECT 02 · AI QUALITY</div><div class="project-art art-purple"><div class="eval-score"><span>RAG EVALUATION</span><strong>01</strong><div class="score-row"><span>Retrieval relevance</span><b>Check</b></div><div class="score-row"><span>Faithfulness</span><b>Check</b></div><div class="score-row"><span>Source alignment</span><b>Check</b></div></div></div><h3>RAG & GenAI evaluation plan</h3><p>A structured test approach for retrieval relevance, grounded answers, hallucinations, context retention, prompt injection, and repeatable regression evaluation.</p><div class="tags"><span>RAG</span><span>LLM testing</span><span>Ground truth</span><span>Agentic AI</span></div><a class="text-link" href="projects/genai-rag-evaluation-demo/README.md">Explore project notes ↗</a></article>
+        <article class="project-card"><div class="project-number">PROJECT 03 · TEST STRATEGY</div><div class="project-art art-green"><div class="pipeline"><div>Commit</div><span>↓</span><div>API smoke</div><span>↓</span><div>UI regression</div><span>↓</span><div class="pipeline-last">Quality gate</div></div></div><h3>Shift-left CI/CD quality gates</h3><p>A sample release validation strategy showing where API smoke tests, UI regression suites, and reporting fit into a delivery pipeline.</p><div class="tags"><span>CI/CD</span><span>AWS / Jenkins concepts</span><span>Risk-based testing</span></div><a class="text-link" href="projects/genai-rag-evaluation-demo/ci-cd-quality-gates.md">Read sample strategy ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading"><div><p class="eyebrow">04 / EXPERIENCE</p><h2>Professional journey</h2></div></div>
+      <div class="timeline"><div class="timeline-mark"></div><div class="timeline-content"><div class="role-line"><h3>Senior Test Automation Engineer (L05)</h3><span>2021 – Present</span></div><p class="company-line">Acuity Knowledge Partners · Bengaluru, India</p><ul><li>Validate a conversational/agentic AI application across functional, API, regression, negative, security, and end-to-end scenarios.</li><li>Test RAG retrieval relevance, context grounding, semantic search, answer correctness, hallucination risks, and source/response alignment.</li><li>Prepare ground-truth datasets, expected responses, prompts, and test data for repeatable AI quality regression.</li><li>Build and maintain Playwright UI automation and integrate API/UI validation where appropriate.</li><li>Contribute to API and UI automation framework setup, enhancement, maintenance, and adoption.</li><li>Integrate API smoke scripts into AWS service pipelines and support shift-left testing and CI/CD promotion processes.</li><li>Support performance testing, VAPT activities, defect refinement, test planning, and quality dashboards.</li></ul></div></div>
+      <div class="achievement-grid"><article><span class="achievement-mark">✦</span><div><h3>Second prize · 2023</h3><p>Proposed the “BEAT Test Manager” solution for customized automated test-script management.</p></div></article><article><span class="achievement-mark">✦</span><div><h3>Community Champion Award</h3><p>Recognized for contribution and innovative QA ways of working.</p></div></article></div>
+    </section>
+
+    <section class="section education-grid"><div><p class="eyebrow">05 / EDUCATION</p><h2>Education & certification</h2></div><div class="education-list"><div><strong>Bachelor of Engineering — Mechanical Engineering</strong><span>Government College of Technology · 2012–2016</span></div><div><strong>Certified Tester in DevOps (CT-DevOps)</strong><span>Certification listed on resume</span></div></div></section>
+
+    <section class="contact-section" id="contact"><p class="eyebrow">06 / CONTACT</p><h2>Let's build quality into the product.</h2><p>I'm interested in Senior QA Automation, SDET, Test Engineer, and AI/GenAI Quality Engineering opportunities—including remote roles open to candidates based in India.</p><div class="contact-actions"><a class="button" href="mailto:vimalkarthik2204@gmail.com">Email me ↗</a><a class="button button-ghost" href="assets/Vimal-Karthik-Resume.docx" download>Download resume ↗</a></div><div class="contact-details"><span>Bengaluru, India</span><span>+91-9597554455</span><span>vimalkarthik2204@gmail.com</span></div></section>
+  </main>
+  <footer><span>© <span id="year">2026</span> Vimal Karthik</span><span>Built for clear, evidence-based quality engineering.</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
